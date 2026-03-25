@@ -1,0 +1,13 @@
+.circle{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle-yellow{
+    background-color: yellow;
+}
+.circle-green{
+    background-color: green;
+}

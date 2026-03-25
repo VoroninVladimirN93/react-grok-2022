@@ -1,0 +1,13 @@
+.box{
+height: 5rem;
+width: 5rem;
+}
+
+.box-enable{
+background-color: red;
+}
+.box-disable{
+background-color: gray;
+}
+
+

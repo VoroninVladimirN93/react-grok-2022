@@ -6,7 +6,11 @@ function UseState03_Slider() {
 
   return (
     <>
-      <input className='range' onChange={({ target }) => setValue(target.value)} type="range" name="months" min="0" max="120" defaultValue={value} step="12" />
+      <input 
+      className='range' 
+      onChange={({ target }) => setValue(target.value)} 
+      type="range" 
+      name="months" min="0" max="120" defaultValue={value} step="12" />
       <label className='label' htmlFor="months">Months: {value}</label>
     </>
   );
