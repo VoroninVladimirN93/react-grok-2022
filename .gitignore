@@ -10,7 +10,8 @@
 
 # production
 /build
-echo "*.env" >> .gitignore
+/.history
+.history/
 
 # misc
 .DS_Store
@@ -25,6 +26,3 @@ yarn-debug.log*
 yarn-error.log*
 test-results/
 playwright-report/
-*.env
-*.key
-passwords*
